@@ -3568,7 +3568,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 4,},
 		["Effect"] = {
 			Name = "Bonk",
-			Description = "Deal 400 damage to a target fighter, then deal 400 damage to all allied fighters.",
+			Description = "Deal 400 damage to a target fighter, then deal 400 damage to all other allied fighters.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Damage",400},{"Damage",400,"Ally"},{"Heal",400,"Self"}},
 			Target = "Single",
@@ -14788,7 +14788,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 0,},
 		["Effect"] = {
 			Name = "EzWinz",
-			Description = "You must have at least 1 Acolyte in play to cast this card. Generate an icon of every color, then draw a card.",
+			Description = "You must have at least 2 Acolyte in play to cast this card. Generate an icon of every color, then draw a card.",
 			["Type"] = "OnSummon",
 			["Power"] = {{"Yellow",1},{"Blue",1},{"Red",1},{"Green",1},{"Neutral",1},{"Draw",1}},
 			Target = "Ally",
