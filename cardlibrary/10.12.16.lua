@@ -3860,7 +3860,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Health"] = 1250,
 		["Power"] = 750,
-		["Rarity"] = "Legendary",
+		["Rarity"] = "Common",
 		["Archetype"] = "TestDummy",
 		["AttackEffect"] = "Punch",
 		["Fading"] = true,
