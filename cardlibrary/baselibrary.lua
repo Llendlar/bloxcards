@@ -7994,7 +7994,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Epic",
 		["AttackEffect"] = "Thunder",
 		["Color"] = "Green",
-		["Cost"] = {["Neutral"] = 1, ["Green"] = 4,},
+		["Cost"] = {["Neutral"] = 1, ["Green"] = 3,},
 		["Effect"] = {
 			Name = "Forced sip",
 			Description = "Lower the health and power of a target fighter by 400. You gain 400 life.",
