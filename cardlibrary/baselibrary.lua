@@ -5431,7 +5431,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Field"] = 293402597,
 		["Archetype"] = "Terrain",
 		["Color"] = "Neutral",
-		["Cost"] = {["Neutral"] = 2,["Blue"] = 2,},
+		["Cost"] = {["Blue"] = 1,},
 		["Effect"] = {
 			Name = "Stud",
 			Description = "While this card is in play. Deal 50 damage to all fighters at the start of each turn.",
