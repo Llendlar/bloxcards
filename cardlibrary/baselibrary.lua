@@ -5429,7 +5429,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Disaster Survival"] = {
-		["Id"] = 1401986625,
+		["Id"] = 1401986621,
 		["Name"] = "Disaster Survival",
 		["Health"] = 0,
 		["Power"] = 0,
