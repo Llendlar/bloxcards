@@ -5429,16 +5429,16 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Disaster Survival"] = {
-		["Id"] = 293402619,
+		["Id"] = 1401986625,
 		["Name"] = "Disaster Survival",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] = "Epic",
+		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Punch1",
 		["Field"] = 293402597,
 		["Archetype"] = "Terrain",
 		["Color"] = "Neutral",
-		["Cost"] = {["Neutral"] = 2,["Blue"] = 2,},
+		["Cost"] = {["Red"] = 1},
 		["Effect"] = {
 			Name = "Stud",
 			Description = "While this card is in play. Deal 50 damage to all fighters at the start of each turn.",
