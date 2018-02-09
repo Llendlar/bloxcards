@@ -8678,7 +8678,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "NotArchetype",
 			Increase = 3,
 		},
-		["Bio"] = "Cthulhu's cousin's cousin's cousin. He's like, BASICALY the reason he became popular.",
+		["Bio"] = "Cthulhu's cousin's cousin's cousin. He's like, BASICALLY the reason he became popular.",
 	},
 	
 	["Titan of the Dying Forest"] = {
