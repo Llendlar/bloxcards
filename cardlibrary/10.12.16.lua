@@ -1200,7 +1200,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Neutral"] = 0,},
 		["Effect"] = {
 			Name = "Hellfire",
-			Description = "Lose all coloured icons. (This helps cast stronger Ultras.)",
+			Description = "Haste. Lose all coloured icons. (This helps cast stronger Ultras.)",
 			["Type"] = "OnSummon",
 			["Power"] = {{"SetYellow",0},{"SetGreen",0},{"SetBlue",0},{"SetRed",0},{"Unlock",1,"Self"}},
 			Target = "Ally",
