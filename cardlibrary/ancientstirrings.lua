@@ -726,7 +726,7 @@ local stirrings = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Dun_Boof",
 		["Health"] = 300,
 		["Power"] = 300,
-		["Rarity"] = "Common",
+		["Rarity"] = "Uncommon",
 		["AttackEffect"] = "Dash",
 		["Color"] = "Yellow", 
 		["Charge"] = true,
@@ -2256,7 +2256,7 @@ local stirrings = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Cost"] = {["Blue"] = 2, ["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "Haydoscale",
-			Description = "Whenever your opponent casts an action or terrain spell, lock all enemy fighters for two turns.",
+			Description = "Whenever your opponent casts an action or terrain spell, lock all enemy fighters for 3 turns.",
 			["Type"] = "OnEnemyCast",
 			["Power"] = {{"Lock",3}},
 			Target = "Opponent",
