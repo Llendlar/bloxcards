@@ -14183,26 +14183,27 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Brymmy"] = {
-		["Id"] = 444223893,
+		["Id"] = 1494887097,
 		["Name"] = "Brymmy",
 		["Health"] = 1000,
 		["Power"] = 0,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch1",
 		["Color"] = "Green",
+		["Stealth"] = true,
 		["Cost"] = {["Green"] = 1, ["Neutral"] = 3,},
 		["Effect"] = {
 			Name = "Render",
 			Description = "Gain 625 Life. When this card dies, gain an additional 625 Life.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Cost",-650},{"Summon","Brymmy2"},{"Damage",9999,"Self"}},
+			["Power"] = {{"Cost",-625},{"Summon","Brymmy2"},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
 		["Bio"] = "Brymm2Blaze, the mighty warrior who must escape poor naming by relentless anime fangirls!",
 	},
 	
 	["Brymmy2"] = {
-		["Id"] = 444223893,
+		["Id"] = 1494887097,
 		["Name"] = "Brymmy",
 		["Health"] = 1000,
 		["Power"] = 0,
