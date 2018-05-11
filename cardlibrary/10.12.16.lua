@@ -5053,7 +5053,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Bio"] = "ZOOM ZAM ZOW, IT'S A REUSED BIO!",
 	},
 
-	["Llendlar1"] = {
+	["Llendlar"] = {
 		["Id"] = 1723835493,
 		["Name"] = "Llendlar1",
 		["Health"] = 0,
@@ -5109,7 +5109,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Name"] = "Cost Modifier - Yellow",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] = "Common",
+		["Rarity"] = "Token",
 		["AttackEffect"] = "Thunder",		
 		["Color"] = "Yellow",
 		["Stealth"] = true,
