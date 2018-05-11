@@ -5061,7 +5061,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Thunder",		
 		["Color"] = "Yellow",
-		["Cost"] = {["Yellow"] = 12,},
+		["Cost"] = {["Yellow"] = 8,},
 		["Effect"] = {
 			Name = "oof",
 			Description = "Destroy all allied fighters. Fill your board with Techno Terrors. Add 'Mass Production' to your hand.",
