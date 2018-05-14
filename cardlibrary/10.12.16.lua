@@ -5437,6 +5437,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
  		},
  		["Bio"] = "On second thought, why not make a token with the card! Double the fun!",
  	},
+	
 	["Llendlar"] = {
 		["Id"] = 1723835493,
 		["Name"] = "Llendlar",
