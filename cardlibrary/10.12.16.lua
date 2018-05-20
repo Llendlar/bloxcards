@@ -5439,7 +5439,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
  	},
 	
 	["Llendlar"] = {
-		["Id"] = 1749451071,
+		["Id"] = 1804619632,
 		["Name"] = "Llendlar",
 		["Health"] = 0,
 		["Power"] = 0,
@@ -5471,7 +5471,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Mass Production"] = {
-		["Id"] = 1749451071,
+		["Id"] = 1804619632,
 		["Name"] = "Mass Production",
 		["Health"] = 0,
 		["Power"] = 0,
