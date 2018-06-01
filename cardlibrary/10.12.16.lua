@@ -3075,7 +3075,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Enderlox1"] = {
-		["Id"] = 857451181,
+		["Id"] = 1869290708,
 		["Name"] = "Enderlox1",
 		["Health"] = 1250,
 		["Power"] = 0,
@@ -3096,7 +3096,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},	
 	
 	["Enderlox2"] = {
-		["Id"] = 857451181,
+		["Id"] = 1869290708,
 		["Name"] = "Enderlox1",
 		["Health"] = 1250,
 		["Power"] = 0,
@@ -3104,7 +3104,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Archetype"] = "Hero",
 		["AttackEffect"] = "PunchKick",
 		["Color"] = "Green", 
-		["Cost"] = {["Neutral"] = 3, ["Green"] = 1,},
+		["Cost"] = {["Green"] = 2,},
 		["Effect"] = {
 			Name = "Life fam",
 			Description = "Gain 650 Life. When this card dies, gain an additional 650 Life.",
