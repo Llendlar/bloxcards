@@ -3089,7 +3089,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Life fam",
 			Description = "Gain 650 Life. When this card dies, gain an additional 650 Life.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Cost",-650},{"Summon","Enderlox2"}},
+			["Power"] = {{"Cost",-650},{"Summon","Enderlox2"},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
 		["Bio"] = "MEDIC!!!!!",
