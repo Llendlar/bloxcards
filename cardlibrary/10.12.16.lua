@@ -33,7 +33,7 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Haydoscale",
 			Description = "Whenever your opponent casts an action or terrain spell, give this fighter 200 Health and Power. End the turn.",
 			["Type"] = "OnEnemyCast",
-			["Power"] = {{"Strengthen",200},{"Heal",200},{"EndTurn",1}},
+			["Power"] = {{"Strengthen",200},{"Heal",200},{"EndTurn",1, "Ally"}},
 			Target = "Self",
 		},
 		["Bio"] = "He rocks your world. Literally.",
