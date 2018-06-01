@@ -14464,26 +14464,6 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	},
 	
 	["Brymmy"] = {
-		["Id"] = 444223893,
-		["Name"] = "Brymmy",
-		["Health"] = 800,
-		["Power"] = 250,
-		["Rarity"] = "Common",
-		["AttackEffect"] = "Punch1",
-		["Color"] = "Green",
-		["Cost"] = {["Neutral"] = 3,["Green"] = 1,},
-		["Fading"] = true,
-		["Effect"] = {
-			Name = "Render",
-			Description = "Add a Demonic Godbeast to your hand and to your opponent's field. At the end of each of your turns, put a Demonic Godbeast into your hand.",
-			["Type"] = "OnSummon",
-			["Power"] = ["Power"] = {{"Add","Tamed Godbeast"},{"Summon","Demonic Godbeast","Opponent"},{"Summon","Brymmy2"},{"Damage",9999,"Self"}},
-			Target = "Ally",
-		},
-		["Bio"] = "Doom inches closer so slowly, you can hardly see it move at all.",
-	},
-	
-	["Brymmy2"] = {
 		["Id"] = 1869360223,
 		["Name"] = "Brymmy",
 		["Health"] = 800,
@@ -18868,3 +18848,4 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 }
  
 return base
+b
