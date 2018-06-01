@@ -9708,7 +9708,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Id"] = 335986514,
 		["Name"] = "Demonic Godbeast",
 		["AltCards"] = {
-			["Enderlox's Godbeast"] = {
+			["Tamed Godbeast"] = {
 				["Id"] = 335986514,
 				["Health"] = 12000,
 				["Power"] = 12000,
@@ -9733,7 +9733,7 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Self",
 			Increase = 9999,
 		},
-		["Bio"] = "Conjurer Bebee2's Master rule: Only summon what you can dismiss.",
+		["Bio"] = "'God' is a relative term.",
 	},
 	
 	["Bebee2"] = {
@@ -14466,20 +14466,60 @@ local base = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 	["Brymmy"] = {
 		["Id"] = 444223893,
 		["Name"] = "Brymmy",
-		["Health"] = 1000,
-		["Power"] = 0,
+		["Health"] = 800,
+		["Power"] = 250,
 		["Rarity"] = "Common",
 		["AttackEffect"] = "Punch1",
 		["Color"] = "Green",
-		["Cost"] = {["Green"] = 4, ["Neutral"] = 1,},
+		["Cost"] = {["Neutral"] = 3,["Green"] = 1,},
+		["Fading"] = true,
 		["Effect"] = {
 			Name = "Render",
-			Description = "Whenever this card is targeted, set your green icons to 3.",
-			["Type"] = "OnTarget",
-			["Power"] = {{"SetGreen",3}},
+			Description = "Add a Demonic Godbeast to your hand and to your opponent's field. At the end of each of your turns, put a Demonic Godbeast into your hand.",
+			["Type"] = "OnSummon",
+			["Power"] = ["Power"] = {{"Add","Tamed Godbeast"},{"Summon","Demonic Godbeast","Opponent"},{"Summon","Brymmy2"},{"Damage",9999,"Self"}},
 			Target = "Ally",
 		},
-		["Bio"] = "Brymm2Blaze, the mighty warrior who must escape poor naming by relentless anime fangirls!",
+		["Bio"] = "Doom inches closer so slowly, you can hardly see it move at all.",
+	},
+	
+	["Brymmy2"] = {
+		["Id"] = 1869360223,
+		["Name"] = "Brymmy",
+		["Health"] = 800,
+		["Power"] = 250,
+		["Rarity"] = "Common",
+		["AttackEffect"] = "Punch1",
+		["Color"] = "Green",
+		["Cost"] = {["Neutral"] = 3,["Green"] = 1,},
+		["Fading"] = true,
+		["Effect"] = {
+			Name = "Render",
+			Description = "Add a Demonic Godbeast to your hand and to your opponent's field. At the end of each of your turns, put a Demonic Godbeast into your hand.",
+			["Type"] = "OnSummon",
+			["Power"] = ["Power"] = {{"Add","Tamed Godbeast"},{"Summon","Demonic Godbeast","Opponent"},{"Summon","Brymmy2"},{"Damage",9999,"Self"}},
+			Target = "Ally",
+		},
+		["Bio"] = "Time rends even the strongest.",
+	},
+	
+	["Brymmy2"] = {
+		["Id"] = 1869360223,
+		["Name"] = "Brymmy",
+		["Health"] = 800,
+		["Power"] = 250,
+		["Rarity"] = "Token",
+		["AttackEffect"] = "Punch1",
+		["Color"] = "Green",
+		["Cost"] = {["Neutral"] = 3,["Green"] = 1,},
+		["Effect"] = {
+			Name = "Render",
+			Description = "Add a Demonic Godbeast to your hand and to your opponent's field. At the end of each of your turns, put a Demonic Godbeast into your hand.",
+			["Type"] = "OnEnd",
+			["Power"] = ["Power"] = {{"Add","Tamed Godbeast"}},
+			Target = "Ally",
+		},
+		["Bio"] = "Time rends even the strongest.",
 	},
 	
 	["ClanAtlas"] = {
