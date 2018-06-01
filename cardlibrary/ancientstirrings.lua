@@ -478,7 +478,7 @@ local stirrings = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Name = "Pyrotechnics",
 			Description = "Whenever a fighter is summoned, end the turn.",
 			["Type"] = "OnAnySummon",
-			["Power"] = {{"EndTurn",1}},
+			["Power"] = {{"EndTurn",1, "Ally"}},
 			Target = "All",
 		},
 		["Bio"] = "I will take as much time as needed to avenge my love.",		
