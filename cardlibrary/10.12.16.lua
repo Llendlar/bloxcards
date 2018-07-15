@@ -5560,28 +5560,37 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Bio"] = "Viable Lifegain decks need Lunar abuse.",
 	},
 	
-	["Llendlar"] = {
-		["Id"] = 1804619632,
-		["Name"] = "Llendlar",
+	["Call to Arms"] = {
+		["Id"] = 2080913162,
+		["Name"] = "Call to Arms",
 		["Health"] = 0,
 		["Power"] = 0,
-		["Rarity"] = "Epic",
+		["Rarity"] = "Legendary",
 		["AttackEffect"] = "Thunder",		
 		["Color"] = "Yellow",
 		["Cost"] = {["Yellow"] = 8,},
 		["Effect"] = {
 			Name = "oof",
-			Description = "Destroy all allied fighters. Fill your board with Techno Terrors. Put 'Mass Production' into your hand. Techno Terrors can't counterattack.",
+			Description = "Summon New Recruits until your board is full. Put 'Reinforcements' into your hand.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Damage",9999,"Ally"},{"Summon","Techno Terror"},{"Summon","Techno Terror"},{"Summon","Techno Terror"},{"Summon","Techno Terror"},{"Summon","Techno Terror"},{"Summon","Techno Terror"},{"Summon","Techno Terror"},{"Summon","Techno Terror"},{"Add","Mass Production"}},
+			["Power"] = {{"RandomSummon",{"New Recruit", "New Recruit2", "New Recruit3"}},{"RandomSummon",{"New Recruit", "New Recruit2", "New Recruit3"}},{"RandomSummon",{"New Recruit", "New Recruit2", "New Recruit3"}},{"RandomSummon",{"New Recruit", "New Recruit2", "New Recruit3"}},{"RandomSummon",{"New Recruit", "New Recruit2", "New Recruit3"}},{"RandomSummon",{"New Recruit", "New Recruit2", "New Recruit3"}},{"RandomSummon",{"New Recruit", "New Recruit2", "New Recruit3"}},{"RandomSummon",{"New Recruit", "New Recruit2", "New Recruit3"}},{"Add","Reinforcements"}},
 			Target = "Self",
 		},
-		["Bio"] = "For game brea...testing purposes.",
+		["Bio"] = "Every inch of this battlefield claimed, in blood or in glory.",
 	},	
 	
-	["Techno Terror"] = {
-		["Id"] = 1749451071,
-		["Name"] = "Techno Terror",
+	["New Recruit"] = {
+		["Id"] = 2080910463,
+		["Name"] = "New Recruit",
+		["AltCards"] = {
+			["New Recruit2"] = {
+				["Id"] =  2080911115,
+				["Bio"] = "FIRE IN THE H-oh.",
+			},
+			["New Recruit3"] = {
+				["Id"] =  2080911847,
+				["Bio"] = "Live to slack another day.",
+			},
 		["Health"] = 100,
 		["Power"] = 100,
 		["Rarity"] = "Token",
@@ -5590,26 +5599,33 @@ local tentwelvesixteen = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		["Color"] = "Yellow",
 		["Token"] = true,
 		["Cost"] = {["Yellow"] = 0,},
-		["Bio"] = "...",
+		["Effect"] = {
+			Name = "...",
+			Description = "Can't counterattack.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Heal",0}},
+			Target = "Ally",
+		},
+		["Bio"] = "Why are these 'boom' tubes again?",
 	},
 	
-	["Mass Production"] = {
-		["Id"] = 1804619632,
-		["Name"] = "Mass Production",
+	["Reinforcements"] = {
+		["Id"] = 2080912593,
+		["Name"] = "Reinforcements",
 		["Health"] = 0,
 		["Power"] = 0,
 		["Rarity"] = "Token",
 		["AttackEffect"] = "Thunder",		
 		["Color"] = "Yellow",
-		["Cost"] = {["Neutral"] = 3,},
+		["Cost"] = {["Neutral"] = 2,},
 		["Effect"] = {
 			Name = "oof",
-			Description = "Summon 2 Techno Terrors. Techno Terrors can't counterattack. Return this to your hand and end the turn.",
+			Description = "Summon 2 New Recruits. Add a copy of this card to your hand and end the turn.",
 			["Type"] = "OnSummon",
-			["Power"] = {{"Summon","Techno Terror"},{"Summon","Techno Terror"},{"Add","Mass Production"},{"EndTurn",1}},
+			["Power"] = {{"RandomSummon",{"New Recruit", "New Recruit2", "New Recruit3"}},{"RandomSummon",{"New Recruit", "New Recruit2", "New Recruit3"}},{"Add","Reinforcements"},{"EndTurn",1}},
 			Target = "Ally",
 		},
-		["Bio"] = "...",	
+		["Bio"] = "More. More! At any cost!",	
 	},
 	
 	["Baseplate"] = {
